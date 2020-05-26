@@ -59,7 +59,6 @@ public abstract class Account implements IBaseRate {
     }
 
     public void showInfo() {
-        System.out.printf("Name: %s\nAccount Number: %s\nBalance: %s.2f\nRate: %.2f%%\n", name, accountNum, balance,
-                rate);
+        System.out.printf("Name: %s\nAccount Number: %s\nBalance: $%.2f\nRate: %.2f%%\n", name, accountNum, balance, rate);
     }
 }
